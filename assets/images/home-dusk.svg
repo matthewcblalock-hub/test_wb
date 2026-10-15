@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+  <title>A well-kept home at dusk with an outdoor heating and cooling unit</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#050e18"/>
+      <stop offset=".42" stop-color="#0b2036"/>
+      <stop offset=".64" stop-color="#1b3a58"/>
+      <stop offset=".75" stop-color="#3a5168"/>
+      <stop offset=".8" stop-color="#7a6658"/>
+    </linearGradient>
+    <radialGradient id="horizon" cx=".72" cy=".74" r=".5">
+      <stop offset="0" stop-color="#f0a160" stop-opacity=".45"/>
+      <stop offset=".45" stop-color="#c47a4a" stop-opacity=".14"/>
+      <stop offset="1" stop-color="#c47a4a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0c1a28"/>
+      <stop offset="1" stop-color="#050c14"/>
+    </linearGradient>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a2f45"/>
+      <stop offset="1" stop-color="#122334"/>
+    </linearGradient>
+    <linearGradient id="roof" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#132232"/>
+      <stop offset="1" stop-color="#0a1520"/>
+    </linearGradient>
+    <linearGradient id="win" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffe7b5"/>
+      <stop offset="1" stop-color="#f0a14e"/>
+    </linearGradient>
+    <linearGradient id="metal" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#b9c3cd"/>
+      <stop offset=".55" stop-color="#8a97a4"/>
+      <stop offset="1" stop-color="#66737f"/>
+    </linearGradient>
+    <linearGradient id="air" gradientUnits="userSpaceOnUse" x1="0" y1="770" x2="0" y2="600">
+      <stop offset="0" stop-color="#249FFF" stop-opacity=".85"/>
+      <stop offset="1" stop-color="#249FFF" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="batten" width="16" height="10" patternUnits="userSpaceOnUse">
+      <path d="M1 0v10" stroke="#23405b" stroke-width="2" opacity=".7"/>
+    </pattern>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="18"/></filter>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="1600" height="1000" fill="url(#sky)"/>
+  <rect width="1600" height="1000" fill="url(#horizon)"/>
+  <g fill="#dbe7f5">
+    <circle cx="640" cy="90" r="1.4" opacity=".7"/><circle cx="820" cy="150" r="1.1" opacity=".5"/>
+    <circle cx="1010" cy="70" r="1.6" opacity=".8"/><circle cx="1190" cy="130" r="1.1" opacity=".5"/>
+    <circle cx="1350" cy="60" r="1.3" opacity=".7"/><circle cx="1510" cy="170" r="1.2" opacity=".5"/>
+    <circle cx="1460" cy="300" r="1" opacity=".35"/><circle cx="910" cy="240" r="1" opacity=".35"/>
+  </g>
+
+  <!-- Distant hills and tree line -->
+  <path d="M0 690c160-40 300-60 470-38s260 40 420 18 330-62 470-40 180 36 240 30V1000H0z" fill="#0d1d2e"/>
+  <g fill="#0a1725">
+    <circle cx="660" cy="600" r="70"/><circle cx="720" cy="560" r="80"/><circle cx="780" cy="610" r="60"/>
+    <circle cx="1480" cy="560" r="90"/><circle cx="1560" cy="600" r="80"/><circle cx="1420" cy="620" r="60"/>
+  </g>
+  <!-- Large tree, left -->
+  <g fill="#07111c">
+    <rect x="232" y="560" width="22" height="220"/>
+    <circle cx="245" cy="470" r="120"/><circle cx="160" cy="540" r="95"/><circle cx="335" cy="530" r="100"/><circle cx="250" cy="380" r="85"/>
+  </g>
+
+  <!-- Ground -->
+  <rect y="766" width="1600" height="234" fill="url(#ground)"/>
+
+  <!-- Window light spill -->
+  <g fill="#f3a65a" filter="url(#glow)" opacity=".38">
+    <rect x="850" y="500" width="110" height="130"/><rect x="1080" y="500" width="110" height="130"/>
+    <rect x="850" y="630" width="340" height="120"/><rect x="680" y="640" width="130" height="90"/>
+  </g>
+  <ellipse cx="1020" cy="790" rx="260" ry="26" fill="#f3a65a" opacity=".12" filter="url(#soft)"/>
+
+  <!-- Left wing -->
+  <rect x="650" y="610" width="190" height="160" fill="url(#wall)"/><rect x="650" y="610" width="190" height="160" fill="url(#batten)"/>
+  <polygon points="632,618 745,538 858,618" fill="url(#roof)"/>
+  <path d="M632 618 745 538l113 80" fill="none" stroke="#35536f" stroke-width="3"/>
+
+  <!-- Main house -->
+  <rect x="1108" y="350" width="36" height="90" fill="#0f1d2c"/>
+  <rect x="1104" y="344" width="44" height="10" fill="#1a2c3f"/>
+  <rect x="820" y="470" width="400" height="300" fill="url(#wall)"/><rect x="820" y="470" width="400" height="300" fill="url(#batten)"/>
+  <polygon points="792,484 1020,316 1248,484" fill="url(#roof)"/>
+  <path d="M792 484 1020 316l228 168" fill="none" stroke="#3d5d7c" stroke-width="3.5"/>
+  <rect x="820" y="484" width="400" height="6" fill="#0b1724" opacity=".6"/>
+
+  <!-- Right garage wing -->
+  <rect x="1220" y="590" width="240" height="180" fill="url(#wall)"/><rect x="1220" y="590" width="240" height="180" fill="url(#batten)"/>
+  <polygon points="1204,600 1340,518 1476,600" fill="url(#roof)"/>
+  <path d="M1204 600 1340 518l136 82" fill="none" stroke="#35536f" stroke-width="3"/>
+  <rect x="1262" y="640" width="160" height="130" fill="#0f1f30"/>
+  <g stroke="#1d344b" stroke-width="2">
+    <path d="M1262 666h160M1262 692h160M1262 718h160M1262 744h160"/>
+  </g>
+  <g fill="url(#win)" opacity=".55">
+    <rect x="1272" y="648" width="30" height="12"/><rect x="1312" y="648" width="30" height="12"/>
+    <rect x="1352" y="648" width="30" height="12"/><rect x="1392" y="648" width="22" height="12"/>
+  </g>
+
+  <!-- Windows -->
+  <g fill="url(#win)">
+    <rect x="870" y="515" width="80" height="100"/>
+    <rect x="1090" y="515" width="80" height="100"/>
+    <rect x="990" y="384" width="60" height="60"/>
+    <rect x="858" y="642" width="112" height="88"/>
+    <rect x="1070" y="642" width="112" height="88"/>
+    <rect x="690" y="650" width="110" height="70"/>
+    <rect x="990" y="636" width="60" height="134"/>
+  </g>
+  <g stroke="#7a5326" stroke-width="3" opacity=".75" fill="none">
+    <path d="M910 515v100M870 565h80M1130 515v100M1090 565h80M1020 384v60M990 414h60"/>
+    <path d="M914 642v88M858 686h112M1126 642v88M1070 686h112M745 650v70M690 685h110"/>
+    <path d="M1020 636v134M990 700h60"/>
+  </g>
+  <g fill="none" stroke="#0b1622" stroke-width="5">
+    <rect x="870" y="515" width="80" height="100"/><rect x="1090" y="515" width="80" height="100"/>
+    <rect x="990" y="384" width="60" height="60"/><rect x="858" y="642" width="112" height="88"/>
+    <rect x="1070" y="642" width="112" height="88"/><rect x="690" y="650" width="110" height="70"/>
+    <rect x="990" y="636" width="60" height="134"/>
+  </g>
+
+  <!-- Porch roof and lights -->
+  <polygon points="966,626 1074,626 1062,604 978,604" fill="#0c1824"/>
+  <g filter="url(#soft)" fill="#ffc77d"><circle cx="976" cy="652" r="10"/><circle cx="1064" cy="652" r="10"/></g>
+  <g fill="#ffe2ad"><circle cx="976" cy="652" r="3.5"/><circle cx="1064" cy="652" r="3.5"/></g>
+
+  <!-- Walkway -->
+  <polygon points="990,770 1050,770 1110,1000 930,1000" fill="#0f1b28"/>
+  <polygon points="990,770 1050,770 1056,790 984,790" fill="#16263a"/>
+
+  <!-- Shrubs -->
+  <g fill="#0a1824">
+    <ellipse cx="700" cy="768" rx="46" ry="24"/><ellipse cx="770" cy="770" rx="40" ry="20"/>
+    <ellipse cx="870" cy="768" rx="54" ry="26"/><ellipse cx="940" cy="772" rx="36" ry="18"/>
+    <ellipse cx="1110" cy="770" rx="42" ry="22"/><ellipse cx="1180" cy="768" rx="50" ry="26"/>
+  </g>
+
+  <!-- Outdoor HVAC unit -->
+  <ellipse cx="1345" cy="972" rx="185" ry="20" fill="#000" opacity=".45" filter="url(#soft)"/>
+  <polygon points="1192,968 1440,968 1492,938 1244,938" fill="#2a3644"/>
+  <rect x="1192" y="968" width="248" height="10" fill="#1d2733"/>
+  <polygon points="1440,968 1492,938 1492,948 1440,978" fill="#151d27"/>
+
+  <polygon points="1430,800 1470,775 1470,935 1430,960" fill="#4a5765"/>
+  <polygon points="1440,822 1462,808 1462,866 1440,880" fill="#5d6b79" stroke="#3c4855" stroke-width="1.5"/>
+  <rect x="1210" y="800" width="220" height="160" fill="url(#metal)"/>
+  <g stroke="#566370" stroke-width="2.2">
+    <path d="M1224 814h192M1224 821h192M1224 828h192M1224 835h192M1224 842h192M1224 849h192M1224 856h192M1224 863h192M1224 870h192M1224 877h192M1224 884h192M1224 891h192M1224 898h192M1224 905h192M1224 912h192M1224 919h192M1224 926h192M1224 933h192M1224 940h192M1224 947h192"/>
+  </g>
+  <rect x="1210" y="800" width="12" height="160" fill="#c9d2da"/>
+  <rect x="1418" y="800" width="12" height="160" fill="#7b8895"/>
+  <polygon points="1210,800 1250,775 1470,775 1430,800" fill="#c6cfd8"/>
+  <ellipse cx="1340" cy="788" rx="92" ry="10.5" fill="#1a232d"/>
+  <g fill="none" stroke="#3d4955" stroke-width="1.6">
+    <ellipse cx="1340" cy="788" rx="72" ry="8"/><ellipse cx="1340" cy="788" rx="50" ry="5.6"/><ellipse cx="1340" cy="788" rx="28" ry="3.2"/>
+    <path d="M1248 788h184M1340 777.5v21"/>
+  </g>
+  <ellipse cx="1340" cy="788" rx="10" ry="2.6" fill="#8b96a2"/>
+  <rect x="1212" y="802" width="3" height="156" fill="#f6c58a" opacity=".35"/>
+
+  <!-- Airflow -->
+  <g fill="none" stroke="url(#air)" stroke-width="3" stroke-linecap="round">
+    <path d="M1296 772c-14-26 14-46 0-72s14-46 0-72"/>
+    <path d="M1340 770c-14-26 14-46 0-72s14-46 0-72s14-40 0-62"/>
+    <path d="M1384 772c-14-26 14-46 0-72s14-46 0-72"/>
+  </g>
+
+  <!-- Foreground shrubs flanking the unit -->
+  <g fill="#060e17">
+    <ellipse cx="1170" cy="960" rx="52" ry="34"/><ellipse cx="1528" cy="950" rx="70" ry="44"/><ellipse cx="1580" cy="975" rx="50" ry="40"/>
+  </g>
+</svg>
